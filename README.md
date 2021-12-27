@@ -20,15 +20,15 @@ $ netstat -an | grep LISTEN
 
 ## Configurando o Serviço
 * abra o arquivo de configurações em `/etc/samba/smb.conf`
-```sh
-$ sudo vim /etc/samba/smb.conf
-```
+    ```sh
+    $ sudo vim /etc/samba/smb.conf
+    ```
 * agora vamos restringir o acesso aos usuários do grupo sambashare e adicionar opções de configurações mais especificas pra rede
 ![smb1](images/samba/3.png)
 * após configurarmos o samba, reiniciaremos o serviço pra que ele possa aplicar as configurações
-```sh
-$ sudo systemctl restart smbd
-```
+    ```sh
+    $ sudo systemctl restart smbd
+    ```
 * após a reinicialização iremos configurar os dados de autenticação dentro do samba para permitir acessa-lo por via de uma autenticação baseada em senha, usando os comandos
     ```sh
     $ sudo adduser aluno
