@@ -103,3 +103,9 @@ Agora com o bind9 configurado, precisamos configuarar as zonas que serão utiliz
   $ ping samba
   ```
   ![cloud init](images/dns/15.png)
+
+## Veja tambem:
+Configurando o samba: [Samba](SAMBA.md)
+
+Configurando o dns slave: [DNS Slave](DNS.md)
+

@@ -40,3 +40,8 @@ $ sudo vim /etc/bind/named.conf.local
 ping google.com
 ```
 ![dns](images/dns-slave/3.png)
+
+## Veja tambem:
+Configurando o samba: [Samba](SAMBA.md)
+
+Configurando o dns master: [DNS Master](BIND9.md)
