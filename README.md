@@ -16,8 +16,6 @@ $ netstat -an | grep LISTEN
 ```
 ![status](images/samba/2.png)
 
-> Com o samba em pleno funcionamento podemos fazer o backup das configurações iniciais dele e começarmos a personalizar!
-
 ## Configurando o Serviço
 * abra o arquivo de configurações em `/etc/samba/smb.conf`
     ```sh
