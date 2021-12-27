@@ -6,27 +6,25 @@ O DNS (Domain Name System), é responsável pela tradução de nomes, em endere�
 ```base
 $ sudo nano /etc/netplan/00-instaler-config.yaml 
 ```
-* Exemplo para a turma 914, para a turma 924 basta utilizar o prefixo de rede 10.9.24
 ![dns](images/dns-slave/1.png)
 
-   * Aplique as configurações
-```sh
-$ sudo netplan apply
-``` 
-   * veja se funcionou
-```sh
-$ ifconfig
-```
+* Aplique as configurações
+  ```sh
+  $ sudo netplan apply
+  ```
+* veja se funcionou
+  ```sh
+  $ ifconfig
+  ```
 
 ### Configurar e instalar servidor DNS secundário (slave)
 ```sh
 $ sudo apt-get install bind9 dnsutils bind9-doc -y
 ```
-
-   * Verifique o status do serviço:
-```sh
-$ sudo systemctl status bind9
-```
+* Verifique o status do serviço:
+  ```sh
+  $ sudo systemctl status bind9
+  ```
 
 ### configuração de zonas
 
