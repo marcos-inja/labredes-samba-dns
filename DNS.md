@@ -1,5 +1,5 @@
 # Configurando o servidor DNS Slave
-O DNS (Domain Name System), é responsável pela tradução de nomes, em endereços de IP. Todos os websites que visitamos têm associado um endereço de IP, além de nós só sabermos o seu nome, Neste caso ao visitarmos o techemportugues.com, estamos a aceder ao IP 37.60.245.152, mas é muito mais simples para o ser humano decorar techemportugues.com, do que 37.60.245.152.
+O DNS (Domain Name System), é responsável pela tradução de nomes, em endereços de IP. Todos os websites que visitamos têm associado um endereço de IP, além de nós só sabermos o seu nome.
 
 ##  Configurar o DNS master na interface de rede
 
